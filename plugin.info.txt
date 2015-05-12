@@ -1,7 +1,7 @@
-base	lastmod
-author	Dennis Ploeger
-email	develop@dieploegers.de
-date	2011-02-14
-name	Lastmod Plugin
-desc	Displays the timestamp of the last modification of the current or another page.
-url		http://www.dokuwiki.org/plugin:lastmod
+base	alertafter
+author	Cameron Little
+email	Cameron.Little@wwu.edu
+date	2015-05-12
+name	Alert After Plugin
+desc	Display an alert after an expiration time.
+url		https://github.com/wwu-housing/alertafter
