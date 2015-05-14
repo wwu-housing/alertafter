@@ -5,11 +5,11 @@ time.
 
 ## Usage
 
-Include the following in a page. The expiration time takes a [relative php date
-format](http://php.net/manual/en/datetime.formats.relative.php).
+Include the following in a page. The expiration time takes a [php date
+format](http://php.net/manual/en/function.strtotime.php).
 
 ```
-~~ALERTAFTER:<expiration time>~~
+~~ALERTAFTER:<expiration time/date>~~
 ```
 
 ```
@@ -27,3 +27,8 @@ The default time is three months.
 ```
 ~~ALERTAFTER:+2 months~~
 ```
+
+```
+~~ALERTAFTER:May 3rd, 2015~~
+```
+
